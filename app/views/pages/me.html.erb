@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
+<style type="text/css">  
+  html { height: 100% }  
+  body { 
+    background-color: skyblue;
+  }  
+  h1, p {
+    font-family:Rosario;
+  }
+  .style_image{ height: 250px, width: 250px } 
+  .style_text {
+    font-family: Rosario;
+  }
+</style> 
+  
+  
+  
+</head>
+  <body>
+<%= image_tag('IMG_4636.JPG') %>
+<%= image_tag('tacos.jpg') %>
+<h1>Name: </h1>
+<%= @name %> 
+<br/>
+<h1>Year: </h1>
+<%= @year %>
+<br/>
+<h1>From: </h1>
+<%= @from %>
+<br />
+<h1>Fun Fact: </h1>
+<%= @fun %>
+<br />
+<h1>What I'm excited about: </h1>
+<%= @excited %>
+<br />
+
+  </body>
+  
+</html>
